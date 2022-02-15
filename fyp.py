@@ -127,7 +127,9 @@ class rotationSystem:
     def noFaces(self):
         return len(self.findAllWalks())
         
-    
+    def displayFaces(self):
+        print(f"Number of faces is: {self.noFaces()}")
+
     def findGenus(self):
         return (1 - 0.5*(self.noVertices() - self.noEdges() + self.noFaces()))
         
