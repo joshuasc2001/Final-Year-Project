@@ -1,7 +1,4 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/jupyternotebooks
-# Edit at https://www.toptal.com/developers/gitignore?templates=jupyternotebooks
-
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
@@ -18,4 +15,4 @@ ipython_config.py
 
 */.sync-conflict/*
 
-# End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks
+*/.pyc
